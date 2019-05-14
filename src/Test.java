@@ -14,13 +14,13 @@ public class Test {
         LogoBuilder testLogoBuilder2 = new LogoBuilder(5,"-","M");
         testLogoBuilder2.printLogo();
 
-        //Or just set an existing object and set different parameters for it
+        //Or just use an existing object and set different parameters for it
         testLogoBuilder.setLogoSize(9);
         testLogoBuilder.setBackgroundSymbol("@");
         testLogoBuilder.setLogoSymbol("+");
         testLogoBuilder.printLogo();
 
-        //trying if it doesn't meet the criteria
+        //testing in case it doesn't meet the criteria
         testLogoBuilder.setLogoSize(6);
         testLogoBuilder.printLogo();
     }
